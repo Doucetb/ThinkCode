@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>ThinkCode - Jobboard</title>
+        <link rel="stylesheet" href="css/style.css"> 
+        <link href="assets/fonts/OpenDyslexic3-Regular.ttf" rel="stylesheet" type="text/css">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+<!------------------------------------------------------->
+<!--                   NAVBAR                           ->
+<!------------------------------------------------------->         
+            <nav class="navbar navbar-default">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Accueil<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Offres d'emploi</a></li>
+                    <li><a href="#">Espace Candidat</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>             
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Se connecter</a></li>
+                    <li><a href="#">Créer un compte</a></li>
+                  </ul>
+            </nav> 
+            
+   <!-- CHOIX NAVIGATION -->
+            <div id="banner">
+                <div class="right navBackground">
+                    <div class="selectionNav">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="nav-icon">
+                                        <img src="#" alt="logo malvoyant">
+                                    </td>
+                                    <td>
+                                        <a href="#" title="Navigation Navigation mal voyant" class="lien_blanc bold">
+                                            Navigation mal voyant</a>
+                                    </td>
+                                    <td class="nav-icon">
+                                        <img src="#" alt="logo clavier">
+                                    </td>
+                                    <td>
+                                        <a href="#" title="Navigation Accessibilité par clavier" class="lien_blanc bold">
+                                            Accessibilité par clavier</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="nav-icon">
+                                        <img src="#" alt="logo non voyant">
+                                    </td>
+                                    <td>
+                                        <a href="#" title="Navigation Navigation non voyant" class="lien_blanc bold">
+                                            Navigation non voyant</a>
+                                    </td>
+                                    <td class="nav-icon">
+                                        <img src="#" alt="logo souris">
+                                    </td>
+                                    <td>
+                                        <a href="#" title="Navigation Accessibilité par souris" class="lien_blanc bold">
+                                            Accessibilité par souris</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>                
+                </div>
+            </div>
+
+  <!-- CHOIX NAVIGATION FIN --> 
+<!------------------------------------------------------->
+            <div class="msg_accueil">
+                <h1>Job board dédié aux personnes handicapées</h1>
+                <h2>On a pensé à vous!</h2><br/>
+            </div>
+        </header>
+
+<!------------------------------------------------------->
+<!--                   BREADCRUMBS                      ->
+<!-------------------------------------------------------> 
+            <ol class="breadcrumb">
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#">Emploi</a></li>
+              <li class="active">Emploi handicap</li>
+            </ol>
+
+<!------------------------------------------------------->
+<!--                   LEFT COLUMN                      ->
+<!------------------------------------------------------->
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                    
+                <form label="Contract_form">
+                    <h3>Type de contrat</h3>
+                    <input type="checkbox" name="opt_1" value="CDI"> CDI<br>
+                    <input type="checkbox" name="opt_2" value="CDD"> CDD<br>
+                    <input type="checkbox" name="opt_3" value="Stage"> Stage<br>
+                    <input type="checkbox" name="opt_4" value="Contrat_pro"> Contrat pro.<br>
+                    <input type="checkbox" name="opt_5" value="Interim"> Interim<br>
+                    <input type="checkbox" name="opt_6" value="Alternance"> Alternance<br><br>
+                    <input type="submit" value="Confirmer">
+                </form>
+
+                    <h3>Secteur d'activité</h3>
+                    <p>Lorem ipsum dolor..</p>
+                    <p>Ut enim ad..</p>
+
+                    <h3>J'affine ma recherche</h3>
+                    <p>Lorem ipsum dolor..</p>
+                    <p>Ut enim ad..</p>
+
+                </div>
+<!------------------------------------------------------->
+<!--                   MIDDLE COLUMN                    ->
+<!------------------------------------------------------->
+                <div class="col-md-8">
+                  <h3>Offre(s) trouvée(s)</h3>
+                    <ul id="timeline">
+                        
+                      <a href="#">
+                        <li class="listing clearfix">
+                          <div class="image_wrapper">
+                            <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                          </div>
+
+                          <div class="info">
+                            <span class="job_title">Nom du poste</span>
+                            <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                          </div>
+                          <span class="job_type full_time">Temps complet</span>
+                        </li>
+                      </a>
+
+                      <a href="#">
+                        <li class="listing clearfix">
+                          <div class="image_wrapper">
+                            <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                          </div>
+                          <div class="info">
+                            <span class="job_title">Nom du poste</span>
+                            <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                          </div>
+                          <span class="job_type full_time">Temps complet</span>
+                        </li>
+                      </a>
+                             
+                      <a href="#">               
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type freelance">Freelance</span>
+                          </li>
+                      </a>
+
+                      <a href="#">                   
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type contract">Contrat</span>
+                          </li>
+                      </a>
+                                 
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="SoundCloud">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type full_time">Temps complet</span>
+                          </li>
+                      </a>
+                             
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type part_time">Temps partiel</span>
+                          </li>
+                      </a>
+
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type freelance">Freelance</span>
+                          </li>
+                      </a>
+
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                 <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type contract">Contrat</span>
+                          </li>
+                      </a>
+
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type full_time">Temps plein</span>
+                          </li>
+                      </a>
+
+                      <a href="#">
+                          <li class="listing clearfix">
+                            <div class="image_wrapper">
+                              <img src="http://placehold.it/350x350" alt="CompanyLogo">
+                            </div>
+                            <div class="info">
+                                <span class="job_title">Nom du poste</span>
+                                <span class="job_info">Entreprise <span>&bull;</span> Ville <span>&bull;</span> Date</span>
+                              </div>
+                            <span class="job_type part_time">Temps partiel</span>
+                          </li>
+                      </a>
+                    </ul> 
+                
+<!------------------------------------------------------->
+<!--                   ETC                              ->
+<!------------------------------------------------------->
+                    <div class="load_more">
+                        <button class="button">Afficher plus</button>
+                    </div>    
+                  </div>
+                </div>   <!--fin row-->   
+            </div>  <!--fin container-->
+            <hr>
+<!--  FOOTER -->
+
+        
+<!------------------------------------------------------->
+<!--                   FOOTER                         ->
+<!------------------------------------------------------->
+            <footer>
+                <div class="footer">
+                    <div class="row">
+                        <div class="col-md-4">
+                                <h3>Think Code</h3>
+                                <p>Think Code Bâtiment <br>
+                                    Adresse<br>
+                                    Code postal, Nantes
+                                </p>
+                                <p>
+                                    Tél: +33(0)2 00 00 00 00<br>
+                                    Fax: +33(0)2 00 00 00 00<br>
+                                    <a href="mailto:ensemble@thinkcode.co">ensemble@thinkcode.co</a>
+                                </p>   
+                            </div>
+                        <div class="col-md-8">
+                            <h3>Titre Footer</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nisi ligula, malesuada id pellentesque viverra, cursus a mauris. Proin euismod maximus sem. In hac habitasse platea dictumst. Aliquam metus nibh, imperdiet sit amet nibh in, laoreet consectetur nibh. Phasellus mattis, urna nec consequat pulvinar, erat libero fermentum dui, sit amet bibendum leo turpis quis lorem. Aenean odio arcu, tempor sed dictum eu, venenatis eu lorem. Nunc est diam, tristique ac lectus et, eleifend consequat diam. Phasellus vitae turpis ex. Ut faucibus metus metus, vel fermentum purus malesuada vitae. Pellentesque egestas nisi in efficitur lacinia. Aliquam semper, risus vitae interdum rhoncus, arcu justo iaculis nibh, sit amet semper mi risus non nulla. Praesent ac gravida felis. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="assets/js/bootstrap.min.js"></script>
+            </footer>
+    </body>
+</html>
